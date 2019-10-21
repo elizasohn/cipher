@@ -10,7 +10,10 @@ alert("The first letter of the sentence was " + first + " and the last letter wa
 var firstUpperCase = first.toUpperCase();
 var lastUpperCase = last.toUpperCase();
 
-var newstr = input.substring(1, input.length -1);
-var newnewstr = firstUpperCase + newstr + lastUpperCase;
+var inputnofirstandlast = input.substring(1, input.length -1);
+var capfirstandlast = firstUpperCase + inputnofirstandlast + lastUpperCase;
 
-alert(newnewstr);
+alert(capfirstandlast);
+
+var reverse = last + inputnofirstandlast + first;
+alert(reverse);
